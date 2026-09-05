@@ -1,0 +1,63 @@
+:root {
+    --brand-primary: #1e3a5f;
+    --brand-primary-dark: #142a45;
+    --brand-accent: #2f7dd1;
+}
+
+body {
+    background-color: #f4f6f9;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.app-navbar {
+    background: linear-gradient(90deg, var(--brand-primary) 0%, var(--brand-primary-dark) 100%);
+}
+
+.role-badge {
+    font-size: 0.75rem;
+    padding: 0.4em 0.7em;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.form-card .card-header {
+    background: var(--brand-primary);
+    color: #fff;
+}
+
+.search-bar .form-control,
+.search-bar .form-select {
+    background-color: #fff;
+}
+
+table.table thead {
+    background-color: #eef2f7;
+}
+
+.empty-state {
+    background: #fff;
+    border-radius: 0.5rem;
+}
+
+.app-footer {
+    border-top: 1px solid #e2e6ea;
+    background-color: #fff;
+    margin-top: 3rem;
+}
+
+.is-invalid {
+    border-color: #dc3545 !important;
+}
+
+.btn-primary {
+    background-color: var(--brand-accent);
+    border-color: var(--brand-accent);
+}
+
+.btn-primary:hover {
+    background-color: #2464ab;
+    border-color: #2464ab;
+}

@@ -1,0 +1,67 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ============================
+# Virtual environment
+# ============================
+venv/
+env/
+ENV/
+.venv/
+
+# ============================
+# Django
+# ============================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Static & media files collected/uploaded at runtime
+/staticfiles/
+/media/*
+!/media/.gitkeep
+/static/*
+!/static/.gitkeep
+
+# ============================
+# Environment variables / secrets
+# ============================
+.env
+.env.*
+!.env.example
+
+# ============================
+# MySQL local dumps/backups (if any are exported during dev)
+# ============================
+*.sql
+!database/schema.sql
+
+# ============================
+# IDE / editor files
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ============================
+# Testing / coverage
+# ============================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ============================
+# Distribution / packaging
+# ============================
+build/
+dist/
+*.egg-info/
